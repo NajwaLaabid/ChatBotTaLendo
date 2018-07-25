@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Speak BIA</string>
+    <string name="hint_search_string">Enter Text to Speak</string>
+    <string name="button_search">Speak Out</string>
+</resources>
