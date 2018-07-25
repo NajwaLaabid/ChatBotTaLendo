@@ -28,10 +28,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btn_search.setOnClickListener {
+        btn_read.setOnClickListener {
 
-            if (edit_search.text.toString().isNotEmpty()) {
-                beginSearch(edit_search.text.toString())
+            if (text_to_read.text.toString().isNotEmpty()) {
+                beginSearch(text_to_read.text.toString())
             }
 
         }
@@ -119,7 +119,6 @@ class MainActivity : AppCompatActivity() {
                             //txt_search_result.text = "${result.audioContent}"
                             var text = "${result.audioContent}"
                             val audioByteArray = Base64.decode(text, Base64.DEFAULT )
-                            //val audioByteBuffer = ByteBuffer.wrap(audioByteArray)
 
                             File("${filesDir.absolutePath}/test.mp3").writeBytes(audioByteArray)
 
@@ -128,10 +127,6 @@ class MainActivity : AppCompatActivity() {
 
                             mediaPlayer.setOnCompletionListener(OnCompletionListener { mp -> mp.release() })
 
-                            println("\n\n====================== here ===================\n")
-                            print(audioByteArray)
-
-                            //val player = AudioTrack.Builder().setAudioAttributes(AudioAttributes.Builder().setUsage(AudioAttributes.USAGE_ALARM).setContentType(AudioAttributes.CONTENT_TYPE_MUSIC).build()).setAudioFormat(AudioFormat.Builder().setEncoding(AudioFormat.ENCODING_PCM_16BIT).setSampleRate(44100).setChannelMask(AudioFormat.CHANNEL_OUT_STEREO).build()).setBufferSizeInBytes(minBuffSize).build()
                         },
                         { error -> println(" ============= Not Working"); print(error) }
                 )

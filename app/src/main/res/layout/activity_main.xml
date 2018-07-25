@@ -8,23 +8,16 @@
     tools:context="com.elyeproj.wikisearchcount.MainActivity">
 
     <EditText
-        android:id="@+id/edit_search"
+        android:id="@+id/text_to_read"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_search_string"
         android:textAlignment="center" />
 
     <Button
-        android:id="@+id/btn_search"
-        android:layout_width="match_parent"
+        android:id="@+id/btn_read"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_search" />
-
-    <TextView
-        android:id="@+id/txt_search_result"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textSize="24sp" />
 
 </LinearLayout>
