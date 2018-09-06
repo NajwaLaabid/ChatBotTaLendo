@@ -1,6 +1,6 @@
-<h3>Bia Tá Lendo: Simple Android App to test Google Cloud Text to speech API in Brazilian Portuguese.</h3>
+<h3>ChatBot Tá Lendo: Simple Android App to test Google Cloud Text to speech API in Brazilian Portuguese.</h3>
 
-<b>Bia t? lendo</b> (literally translating to 'Bia is reading') is a Kotlin android app using <a href="https://cloud.google.com/text-to-speech/docs/basics" > Google Cloud Text To Speech API </a> and <a href="https://developers.google.com/actions/reference/ssml">SSML</a>  to read an input text. <br>
+<b>ChatBot t? lendo</b> (literally translating to 'Bia is reading') is a Kotlin android app using <a href="https://cloud.google.com/text-to-speech/docs/basics" > Google Cloud Text To Speech API </a> and <a href="https://developers.google.com/actions/reference/ssml">SSML</a>  to read an input text. <br>
 
 
 
@@ -71,6 +71,3 @@
 
 
 
-BIA stands for Business Intelligent Assistant. It is an existing intelligent assistant built in Android by Sankhya Labs, Uberl?ndia, Minas Gerais Brazil. BIA is used as an intelligent assistant of Sankhya's ERM solution Sankhya-w.<br>
-Bia was using android's native tts library to interact with the users. When trying to add SSML tags to BIA's speech, we realized that the native library did not support many tags, and decided to investigate the possibility of using a third-party library/service for reading.
-<br>Our choice fell on Google Cloud Text-To-Speech service because it seemed to provide detailed documentation and a strong enough support for SSML tags.  
