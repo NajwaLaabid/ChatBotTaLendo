@@ -1,6 +1,6 @@
-# ChatBot Tá Lendo: Simple Android App to test Google Cloud Text to speech API in Brazilian Portuguese.
+# ChatBot Tá Lendo
 
-<b>ChatBot tá lendo</b> (literally translating to 'ChatBot is reading') is a Kotlin android app using [Google Cloud Text To Speech API](https://cloud.google.com/text-to-speech/docs/basics) and [SSML](https://developers.google.com/actions/reference/ssml) to read an input text. 
+<b>ChatBot Tá Lendo</b> (literally translating to 'ChatBot Is Reading') is a Kotlin android app using [Google Cloud Text To Speech API](https://cloud.google.com/text-to-speech/docs/basics) and [SSML](https://developers.google.com/actions/reference/ssml) to read an input text. The app was built to test Google Cloud Text To Speech API in Brazilian Portuguese.
 
 ## What's the idea?
 - Read the user's input from the provided text field. 
